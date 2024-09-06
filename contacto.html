@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Blog café</title>
+
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Radio+Canada:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/cafe.css">
+</head>
+<body>
+    <header class="header">
+        <div class="contenedor">
+
+            <div class="barra">
+                <a class="logo centrar-texto" href="index.html">
+                    <h1 class="no-margin logo__nombre">Blog<span class="logo__bold">Devs</span></h1>
+                </a>
+
+                <nav class="enlaces centrar-texto">
+                    <a class="enlaces__a" href="nosotros.html">Nosotros</a>
+                    <a class="enlaces__a" href="cursos.html">Cursos</a>
+                    <a class="enlaces__a" href="contacto.html">Contactos</a>
+                </nav>
+
+            </div>
+
+        </div>
+
+        <div class="header__texto">
+            <h2 class="no-margin">Blog de programadores con consejos y cursos</h2>
+            <p class="no-margin">De programadores para programadores</p>
+        </div>
+    </header>
+
+    <main class="contenedor">
+        <h3 class="centrar-texto">Contacto</h3>
+
+
+        <div class="contacto__bg">
+
+        </div>
+
+        <form class="formulario">
+            <div class="campo">
+                <label class="campo__label" for="nombre">Nombre</label>
+                <input class="campo__field" class="campo__field" type="text" placeholder="Tu nombre" id="nombre">
+            </div>
+
+            <div class="campo">
+                <label class="campo__label" for="email">email</label>
+                <input class="campo__field" type="email" placeholder="Tu email" id="email">
+            </div>
+
+            <div class="campo">
+                <label class="campo__label" for="mensaje">Mensaje</label>
+                <textarea class="campo__field--textarea" id="mensaje"></textarea>
+            </div>
+
+            <div class="campo campo__boton">
+                <input type="submit" value="Enviar" class="boton boton__primario">
+
+            </div>
+
+
+
+        </form>
+
+
+    </main>
+
+    <footer class="footer">
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo centrar-texto" href="index.html">
+                    <h1 class="no-margin logo__nombre">Blog<span class="logo__bold">Devs</span></h1>
+                </a>
+
+                <nav class="enlaces centrar-texto">
+                    <a class="enlaces__a" href="">Nosotros</a>
+                    <a class="enlaces__a" href="">Cursos</a>
+                    <a class="enlaces__a" href="">Contactos</a>
+                </nav>
+
+            </div>
+        </div>
+    </footer>
+    <script src="js/modernizer.js"></script>
+</body>
+</html>

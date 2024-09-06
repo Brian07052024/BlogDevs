@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog café</title>
+    <meta name="description" content="Página Web de blog de café">
+
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Radio+Canada:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/cafe.css">
+</head>
+<body>
+    <header class="header">
+        <div class="contenedor">
+
+            <div class="barra">
+                <a class="logo centrar-texto" href="index.html">
+                    <h1 class="no-margin logo__nombre">Blog<span class="logo__bold">Devs</span></h1>
+                </a>
+
+                <nav class="enlaces centrar-texto">
+                    <a class="enlaces__a" href="nosotros.html">Nosotros</a>
+                    <a class="enlaces__a" href="cursos.html">Cursos</a>
+                    <a class="enlaces__a" href="contacto.html">Contactos</a>
+                </nav>
+
+            </div>
+
+        </div>
+
+        <div class="header__texto">
+            <h2 class="no-margin">Blog de programadores con consejos y cursos</h2>
+            <p class="no-margin">De programadores para programadores</p>
+        </div>
+    </header>
+
+    <div class="contenedor contenido__principal">
+        <main class="blog">
+            <h3>Nuestro Blog</h3>
+
+            <article class="entrada">
+                <div class="entrada__imagen">
+                    <picture>
+                        <source srcset="img/blog1.webp" type="image/webp">
+                        <img loading="lazy" src="img/blog1.jpg" alt="imagenblog">
+                    </picture>
+                    
+                </div>
+
+                <div class="entrada__contenido">
+                    <h4 class="no-margin">Tipos de lenguajes de programación</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores qui pariatur ipsam sint libero maxime maiores minima corporis nam aliquam, praesentium consequuntur esse voluptate aperiam, similique accusamus quisquam expedita sit?</p>
+                    <a class="boton boton__primario" href="entrada.html">Leer entrada</a>
+                </div>
+            </article>
+
+            <article class="entrada"></article>
+                <div class="entrada__imagen">
+                    <picture>
+                        <source srcset="img/blog3.webp" type="image/webp">
+                        <img loading="lazy" src="img/blog3.jpg" alt="imagenblog">
+                    </picture>
+                </div>
+
+                <div class="entrada__contenido">
+                    <h4 class="no-margin">JavaScript</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores qui pariatur ipsam sint libero maxime maiores minima corporis nam aliquam, praesentium consequuntur esse voluptate aperiam, similique accusamus quisquam expedita sit?</p>
+                    <a class="boton boton__primario" href="entrada.html">Leer entrada</a>
+                </div>
+            </article>
+
+            <article class="entrada">
+                <div class="entrada__imagen">
+                    <picture>
+                        <source srcset="img/blog2.webp" type="image/webp">
+                        <img loading="lazy" src="img/blog2.jpg" alt="imagenblog">
+                    </picture>
+                </div>
+
+                <div class="entrada__contenido">
+                    <h4 class="no-margin">Los 3 lenguajes de la red</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores qui pariatur ipsam sint libero maxime maiores minima corporis nam aliquam, praesentium consequuntur esse voluptate aperiam, similique accusamus quisquam expedita sit?</p>
+                    <a class="boton boton__primario" href="entrada.html">Leer entrada</a>
+                </div>
+            </article>
+
+        </main>
+
+        <aside class="sidebar">
+            
+            <ul>
+                <h3 class="sidebar__tema">Nuestros Cursos</h3>
+                
+                <li class="sidebar__taller">
+                    <h4 class=" no-margin sidebar__taller--titulo" >Técnicas de extracción de café</h4>
+    
+                    <p class="sidebar__taller--descripcion"><span>Precio: </span>gratis</p>
+                    
+                    <p class="sidebar__taller--descripcion"><span>Cupo: </span>20</p>
+    
+                    <a class="boton boton__secundario" href="">
+                        Más información sobre nuestros cursos
+                    </a>
+                </li>
+                
+                <li class="sidebar__taller">
+                    <h4 class="no-margin sidebar__taller--titulo" >4 Recetas de café para principiantes</h4>
+    
+                    <p class="sidebar__taller--descripcion"><span>Precio: </span>gratis</p>
+                    
+                    <p class="sidebar__taller--descripcion"><span>Cupo: </span>20</p>
+    
+                    <a class="boton boton__secundario" href="">
+                        Más información sobre nuestros cursos
+                    </a>
+                </li>
+            </ul>
+
+
+        </aside>
+    </div>
+
+    <footer class="footer">
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo centrar-texto" href="index.html">
+                    <h1 class="no-margin logo__nombre">Blog<span class="logo__bold">Devs</span></h1>
+                </a>
+
+                <nav class="enlaces centrar-texto">
+                    <a class="enlaces__a" href="">Nosotros</a>
+                    <a class="enlaces__a" href="">Cursos</a>
+                    <a class="enlaces__a" href="">Contactos</a>
+                </nav>
+
+            </div>
+        </div>
+    </footer>
+    <script src="js/modernizer.js"></script>
+</body>
+</html>
